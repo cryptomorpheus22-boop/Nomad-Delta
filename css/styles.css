@@ -770,6 +770,97 @@ img {
     line-height: 1.6;
 }
 
+/* --- 4.5. Meet Your Guide --- */
+.guide-section {
+    background-color: var(--card-bg);
+    padding: 80px 24px;
+}
+
+.guide-container {
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* simple fallback for columns */
+    align-items: center;
+    gap: 48px;
+}
+
+.guide-image-col {
+    flex: 1;
+    min-width: 300px;
+    border-radius: var(--border-radius-card);
+    overflow: hidden;
+    position: relative;
+    box-shadow: var(--card-shadow);
+}
+
+.guide-image-col::after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+    /* Square aspect ratio */
+}
+
+.guide-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.guide-text-col {
+    flex: 1.2;
+    min-width: 300px;
+}
+
+.guide-label {
+    display: inline-block;
+    color: var(--primary-green);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.guide-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--dark-bg);
+    margin-bottom: 16px;
+    font-family: var(--font-body);
+}
+
+.guide-bio {
+    color: var(--muted-text);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+.guide-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.guide-benefits p {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 500;
+    color: var(--dark-bg);
+}
+
+.check-inline {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
 /* --- 5. Trust & Social Proof --- */
 .trust-section {
     background-color: var(--card-bg);
