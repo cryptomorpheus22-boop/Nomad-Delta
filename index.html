@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomad Delta Mobile Safaris | Untamed Luxury in the Heart of Botswana</title>
+    <meta name="description"
+        content="Experience bespoke mobile expeditions through the Okavango Delta. Rugged adventure meets unparalleled elegance under the African stars.">
+    <!-- Meta Pixel Code (Placeholder) -->
+    <!-- Google Analytics 4 (Placeholder) -->
+
+    <!-- Open Graph tags for SEO / Social Sharing -->
+    <meta property="og:title" content="Nomad Delta Mobile Safaris | Untamed Luxury in the Heart of Botswana">
+    <meta property="og:description"
+        content="Experience bespoke mobile expeditions through the Okavango Delta. Rugged adventure meets unparalleled elegance under the African stars.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Section 1: Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">
+                <div class="logo-wrapper">
+                    <img src="assets/images/logo.jpeg" alt="Nomad Delta Mobile Safaris" class="nav-logo-img">
+                    <span class="brand-text">Nomad Delta Mobile Safaris</span>
+                </div>
+            </a>
+
+            <!-- Desktop Links -->
+            <ul class="nav-links">
+                <li><a href="#offerings">Our Safaris</a></li>
+                <li><a href="#ai-planner">AI Planner</a></li>
+                <li><a href="#trust">Impact</a></li>
+                <li><a href="#footer">About</a></li>
+            </ul>
+
+            <!-- CTA & Mobile Toggle -->
+            <div class="nav-actions">
+                <a href="https://wa.me/26771849133?text=Hi%2C%20I'm%20interested%20in%20a%20bespoke%20safari%20expedition."
+                    target="_blank" class="btn btn-primary btn-inquire">Inquire Now</a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Menu">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div class="mobile-drawer" id="mobileDrawer">
+            <div class="drawer-header hidden-desktop">
+                <button class="drawer-close" id="mobileDrawerClose" aria-label="Close Menu">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="#offerings" class="mobile-link">Our Safaris</a></li>
+                <li><a href="#ai-planner" class="mobile-link">AI Planner</a></li>
+                <li><a href="#trust" class="mobile-link">Impact</a></li>
+                <li><a href="#footer" class="mobile-link">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section 2: Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-label">EST. 1998 • PRIVATE EXPEDITIONS</span>
+            <h1 class="hero-title">Untamed Luxury in the <span class="highlight-green">Heart</span> of Botswana</h1>
+            <p class="hero-subtext">Experience bespoke mobile expeditions through the Okavango Delta. Rugged adventure
+                meets unparalleled elegance under the African stars.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/26771849133?text=Hi%2C%20I'm%20interested%20in%20a%20bespoke%20safari%20expedition."
+                    target="_blank" class="btn btn-whatsapp">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.472 14.382C17.152 14.222 15.572 13.442 15.282 13.332C15.002 13.232 14.792 13.182 14.582 13.502C14.372 13.822 13.782 14.512 13.592 14.722C13.412 14.932 13.222 14.962 12.902 14.802C12.582 14.642 11.542 14.302 10.312 13.192C9.362 12.332 8.722 11.272 8.532 10.952C8.352 10.632 8.512 10.462 8.672 10.302C8.822 10.152 8.992 9.922 9.152 9.742C9.312 9.552 9.362 9.422 9.472 9.212C9.572 9.002 9.522 8.812 9.442 8.652C9.362 8.492 8.722 6.942 8.462 6.302C8.202 5.692 7.942 5.772 7.752 5.772C7.572 5.762 7.352 5.762 7.142 5.762C6.932 5.762 6.582 5.842 6.292 6.162C5.992 6.482 5.142 7.272 5.142 8.872C5.142 10.472 6.312 12.002 6.482 12.222C6.642 12.442 8.692 15.762 11.962 17.062C14.732 18.162 15.252 17.942 15.832 17.892C16.412 17.842 17.652 17.172 17.922 16.482C18.182 15.792 18.182 15.192 18.092 15.062C18.012 14.922 17.792 14.842 17.472 14.682M12.002 2C6.482 2 2.002 6.48 2.002 12C2.002 13.76 2.462 15.46 3.322 16.96L2.002 21.79L6.962 20.49C8.422 21.28 10.162 21.72 12.002 21.72C17.522 21.72 22.002 17.24 22.002 11.72C22.002 6.2 17.522 2 12.002 2Z">
+                        </path>
+                    </svg>
+                    Chat on WhatsApp
+                </a>
+                <button type="button" class="btn btn-transparent scroll-trigger" data-target="#offerings">View
+                    Itineraries</button>
+            </div>
+        </div>
+        <!-- Curved bottom SVG transition -->
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0,120 L1440,120 L1440,60 C1140,120 720,20 0,60 Z" fill="#FAFAF5"></path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Section 3: AI Safari Planner Widget -->
+    <section class="ai-planner-section" id="ai-planner">
+        <div class="planner-container">
+            <div class="planner-image-col">
+                <img src="https://images.pexels.com/photos/1105189/pexels-photo-1105189.jpeg?auto=compress&cs=tinysrgb&w=1000"
+                    alt="Aerial view of Okavango Delta" class="planner-img" loading="lazy">
+            </div>
+            <div class="planner-widget-col">
+                <div class="planner-card">
+                    <div class="planner-header">
+                        <svg class="sparkle-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z" fill="#22C55E" />
+                        </svg>
+                        <h2>Your Personal Safari Planner</h2>
+                    </div>
+                    <p class="planner-question">Welcome! How many days would you like to explore the Okavango Delta?</p>
+
+                    <div class="duration-selectors" id="durationSelectors">
+                        <button class="pill-btn" data-value="3-5 Days">3–5 Days</button>
+                        <button class="pill-btn" data-value="7-10 Days">7–10 Days</button>
+                        <button class="pill-btn" data-value="2 Weeks+">2 Weeks+</button>
+                    </div>
+
+                    <div class="planner-input-group">
+                        <input type="text" id="safariInput" placeholder="Tell us your safari dreams..."
+                            class="planner-input" autocomplete="off">
+                        <button id="plannerSubmitBtn" class="btn-submit" aria-label="Submit" disabled>
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Dynamic State Container (Loading / Result) -->
+                    <div id="plannerResultContainer" class="planner-result hidden">
+                        <!-- Loading State -->
+                        <div id="plannerLoading" class="hidden loading-state">
+                            <div class="dot-pulse"></div>
+                            <p class="loading-text">Planning your adventure...</p>
+                        </div>
+                        <!-- Result State -->
+                        <div id="plannerOutput" class="hidden result-state">
+                            <p id="generatedItineraryText" class="generated-text"></p>
+                            <a id="refineWhatsappBtn" href="#" target="_blank" class="btn btn-whatsapp w-full">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.002 2C6.482 2 2.002 6.48 2.002 12C2.002 13.76 2.462 15.46 3.322 16.96L2.002 21.79L6.962 20.49C8.422 21.28 10.162 21.72 12.002 21.72C17.522 21.72 22.002 17.24 22.002 11.72C22.002 6.2 17.522 2 12.002 2Z">
+                                    </path>
+                                </svg>
+                                Refine This Plan on WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Bespoke Safari Offerings -->
+    <section class="offerings-section" id="offerings">
+        <div class="container text-center">
+            <h2 class="section-title">Bespoke Safari Offerings</h2>
+            <p class="section-subtitle">Crafting intimate encounters with Africa's most majestic landscapes through
+                three distinct lenses of exploration.</p>
+
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="offering-card">
+                    <div class="icon-wrapper">
+                        <!-- Vehicle Icon -->
+                        <svg viewBox="0 0 24 24" fill="none" class="feature-icon" stroke="#22C55E" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="7" width="20" height="11" rx="2" ry="2"></rect>
+                            <path d="M12 7V3h6v4"></path>
+                            <circle cx="7" cy="18" r="2"></circle>
+                            <circle cx="17" cy="18" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Mobile Expeditions</h3>
+                    <p class="card-desc">Traverse the wild heart of Botswana in custom 4x4 vehicles, following the great
+                        migration routes as they unfold.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="offering-card">
+                    <div class="icon-wrapper">
+                        <!-- Camera Icon -->
+                        <svg viewBox="0 0 24 24" fill="none" class="feature-icon" stroke="#22C55E" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                            </path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Photography Safaris</h3>
+                    <p class="card-desc">Capture the perfect shot with expert-led workshops designed for both
+                        professional and amateur wildlife photographers.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="offering-card">
+                    <div class="icon-wrapper">
+                        <!-- Tent Icon -->
+                        <svg viewBox="0 0 24 24" fill="none" class="feature-icon" stroke="#22C55E" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 21h18"></path>
+                            <path d="M12 3l9 18"></path>
+                            <path d="M12 3L3 21"></path>
+                            <path d="M12 3v18"></path>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Private Luxury Camps</h3>
+                    <p class="card-desc">Experience secluded elegance in our sustainable canvas retreats, positioned in
+                        the delta's most exclusive concessions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Trust & Social Proof -->
+    <section class="trust-section" id="trust">
+        <div class="trust-container">
+            <div class="trust-content">
+                <h2 class="section-title dark-text text-left">Why the World's Discerning Travelers Choose Us</h2>
+                <ul class="trust-points">
+                    <li class="trust-item">
+                        <div class="check-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                        <div class="trust-text">
+                            <strong>Unmatched Local Expertise</strong>
+                            <p>Our guides are born and raised in the Delta, offering insights no one else can.</p>
+                        </div>
+                    </li>
+                    <li class="trust-item">
+                        <div class="check-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                        <div class="trust-text">
+                            <strong>Sustainable Luxury</strong>
+                            <p>100% solar-powered camps and a zero-waste policy to protect our pristine home.</p>
+                        </div>
+                    </li>
+                    <li class="trust-item">
+                        <div class="check-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                        <div class="trust-text">
+                            <strong>Exclusive Access</strong>
+                            <p>Private concessions away from the crowds for intimate, silent wildlife viewings.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="testimonial-wrapper">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <blockquote class="testimonial-quote">
+                        "An otherworldly experience. The mobile camp was more luxurious than most 5-star hotels in
+                        London. Watching a leopard from our breakfast table was the highlight of our decade."
+                    </blockquote>
+                    <div class="reviewer">
+                        <p class="reviewer-name">Jonathan Sterling</p>
+                        <p class="reviewer-location">London, United Kingdom</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Final CTA Banner -->
+    <section class="final-cta">
+        <div class="cta-content">
+            <h2 class="cta-headline">Ready for your wild awakening?</h2>
+            <p class="cta-subtext">Chat with our Botswana-based experts today to start planning your bespoke journey.
+            </p>
+            <a href="https://wa.me/26771849133?text=Hello%2C%20I'm%20ready%20to%20plan%20my%20bespoke%20safari."
+                target="_blank" class="btn btn-whatsapp cta-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.002 2C6.482 2 2.002 6.48 2.002 12C2.002 13.76 2.462 15.46 3.322 16.96L2.002 21.79L6.962 20.49C8.422 21.28 10.162 21.72 12.002 21.72C17.522 21.72 22.002 17.24 22.002 11.72C22.002 6.2 17.522 2 12.002 2Z">
+                    </path>
+                </svg>
+                WhatsApp Our Experts
+            </a>
+            <p class="urgency-line">TYPICALLY REPLIES IN UNDER 10 MINUTES</p>
+        </div>
+    </section>
+
+    <!-- Section 7: Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <!-- Column 1 -->
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.jpeg" alt="Nomad Delta Mobile Safaris" class="footer-logo-img">
+                    <span class="footer-brand-text">Nomad Delta Mobile Safaris</span>
+                </div>
+                <p class="footer-tagline">The original pioneers of bespoke luxury mobile expeditions in the Okavango
+                    Delta since 1998.</p>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Our Fleet</a></li>
+                    <li><a href="#">Delta Camps</a></li>
+                    <li><a href="#">Family Safaris</a></li>
+                    <li><a href="#">Honeymoons</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Our History</a></li>
+                    <li><a href="#">Conservation</a></li>
+                    <li><a href="#">Partner with Us</a></li>
+                    <li><a href="#">Travel Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="footer-col flex-end">
+                <h4 class="footer-heading">Contact</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <a href="mailto:info@nomaddeltasafaris.com">info@nomaddeltasafaris.com</a>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <span>Maun, Botswana Office</span>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                        <a href="tel:+26771849133">+267 71 849 133</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2024 Nomad Delta Mobile Safaris. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp CTA (Mobile Only) -->
+    <a href="https://wa.me/26771849133?text=Hi%2C%20I'm%20interested%20in%20a%20bespoke%20safari%20expedition."
+        class="floating-wa" target="_blank" aria-label="Chat on WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M12.002 2C6.482 2 2.002 6.48 2.002 12C2.002 13.76 2.462 15.46 3.322 16.96L2.002 21.79L6.962 20.49C8.422 21.28 10.162 21.72 12.002 21.72C17.522 21.72 22.002 17.24 22.002 11.72C22.002 6.2 17.522 2 12.002 2Z">
+            </path>
+        </svg>
+    </a>
+
+    <!-- Main Client Script -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
